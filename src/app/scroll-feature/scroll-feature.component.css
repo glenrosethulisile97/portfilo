@@ -1,0 +1,221 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #eae0d5;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: #eae0d5;
+    color: #0b0a0abd ;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+/* Hero Section */
+.hero {
+    background: url(.../.../../../../../assets/images/How\ to\ Decorate\ a\ Room\ Without\ Breaking\ the\ Bank_\ Low\ Cost\ Design\ Reminders\ -\ Hello\ Lovely.jpeg) no-repeat center center;
+    background-size: cover;
+    color: #0b0a0abd;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    background-color:#eae0d5;
+    color: #333d29;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color : #333d29;
+}
+
+/* About Section */
+#about {
+    background: url(.../.../../../../../assets/images/How\ to\ Decorate\ a\ Room\ Without\ Breaking\ the\ Bank_\ Low\ Cost\ Design\ Reminders\ -\ Hello\ Lovely.jpeg) no-repeat center center;
+    height: 700px;
+    padding: 50px 20px;
+    background-size: cover;
+    text-align: center;
+    background-color:hsl(350, 23%, 95%);
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Projects Section */
+#projects {
+    height: 700px;
+    padding: 50px 20px;
+    background-color:#eae0d5;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background-color: #eae0d5;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #eae0d5;
+    background: url(.../.../../../../../assets/images/How\ to\ Decorate\ a\ Room\ Without\ Breaking\ the\ Bank_\ Low\ Cost\ Design\ Reminders\ -\ Hello\ Lovely.jpeg) no-repeat center center;
+    background-size: cover;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-block {
+    background-color: #eae0d5;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+}
+
+.skill-block h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #020201;
+}
+
+.skill-block ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-block ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #0b0b0b;
+}
+
+.skill-block ul li::before {
+    content: "•";
+    color: #070707;
+    margin-right: 8px;
+}
+
+/* Contact Section */
+#contact {
+    height: 700px;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #eae0d5;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact .btn {
+    background-color: #eae0d5;
+    color: #10100f;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#contact .btn:hover {
+    background-color:#a5a58d;
+}
+
+/* Footer */
+footer {
+    background-color: #eae0d5;
+    color: #a5a58d;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+/* Container for the image */
+.image-container {
+    text-align: center; /* Center the image horizontally */
+    margin: 20px 0; /* Add some margin around the image */
+    height: 20px;
+    width: 20px;
+}
+
+/* Styling the image */
+.image-container img {
+    width: 100%; /* Make the image responsive */
+    max-width: 20px; /* Set a maximum width for the image */
+    height: 20; /* Maintain the aspect ratio */
+    border-radius: 100px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+.image-container img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
