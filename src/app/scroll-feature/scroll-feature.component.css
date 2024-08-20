@@ -25,7 +25,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url(.../.../../../../../assets/images/How\ to\ Decorate\ a\ Room\ Without\ Breaking\ the\ Bank_\ Low\ Cost\ Design\ Reminders\ -\ Hello\ Lovely.jpeg) no-repeat center center;
+    background: url(../../assets/images/_\ \(1\)\ copy.jpeg) no-repeat center center;
     background-size: cover;
     color: #0b0a0abd;
     text-align: center;
@@ -59,7 +59,7 @@ body {
 
 /* About Section */
 #about {
-    background: url(.../.../../../../../assets/images/How\ to\ Decorate\ a\ Room\ Without\ Breaking\ the\ Bank_\ Low\ Cost\ Design\ Reminders\ -\ Hello\ Lovely.jpeg) no-repeat center center;
+    background: url(../../assets/images/_\ \(1\)\ copy.jpeg) no-repeat center center;
     height: 700px;
     padding: 50px 20px;
     background-size: cover;
@@ -68,12 +68,11 @@ body {
 }
 
 #about h2 {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Increase the font size */
     margin-bottom: 20px;
+    font-weight: 700; /* Make the text bolder */
+    text-emphasis-color: black;
 }
-
-
-
 
 
 /* Projects Section */
@@ -111,7 +110,7 @@ body {
 /* Skills Section */
 .skills {
     background-color: #eae0d5;
-    background: url(.../.../../../../../assets/images/How\ to\ Decorate\ a\ Room\ Without\ Breaking\ the\ Bank_\ Low\ Cost\ Design\ Reminders\ -\ Hello\ Lovely.jpeg) no-repeat center center;
+    background: url(../../assets/images/_\ \(1\)\ copy.jpeg) no-repeat center center;
     background-size: cover;
     padding: 60px 20px;
     text-align: center;
@@ -163,7 +162,7 @@ body {
 }
 
 /* Contact Section */
-#contact {
+/* #contact {
     height: 700px;
     padding: 50px 20px;
     text-align: center;
@@ -183,11 +182,11 @@ body {
     font-size: 1.1rem;
     border-radius: 5px;
     transition: background-color 0.3s;
-}
+} */
 
-#contact .btn:hover {
-    background-color:#a5a58d;
-}
+/* #contact .btn:hover {
+    background-color:#a5a58d; */
+/* } */
 
 /* Footer */
 footer {
