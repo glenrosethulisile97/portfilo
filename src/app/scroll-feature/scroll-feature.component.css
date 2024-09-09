@@ -25,7 +25,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url(../../assets/images/_\ \(4\).jpeg) no-repeat center center;
+    background: url(../../assets/_\ \(6\).jpeg) no-repeat center center;
     background-size: cover;
     color: #0b0a0abd;
     text-align: center;
@@ -59,12 +59,11 @@ body {
 
 /* About Section */
 #about {
-    background: url(../../assets/images/_\ \(4\).jpeg) no-repeat center center;
     height: 700px;
     padding: 50px 20px;
     background-size: cover;
     text-align: center;
-    background-color:hsl(350, 23%, 95%);
+    background-color:#eae0d5;
     
 }
 
@@ -132,7 +131,6 @@ body {
 /* Skills Section */
 .skills {
     background-color: #eae0d5;
-    background: url(../../assets/images/_\ \(4\).jpeg) no-repeat center center;
     background-size: cover;
     padding: 60px 20px;
     text-align: center;
@@ -151,7 +149,7 @@ body {
 }
 
 .skill-block {
-    background-color: #eae0d5;
+    background-color: white;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -242,3 +240,156 @@ footer {
 .image-container img:hover {
     transform: scale(1.05); /* Slight zoom on hover */
 }
+
+
+/* Projects Section Styling */
+#projects {
+    padding: 50px 0;
+    background-color: #eae0d5;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Project List Styling */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Project Item Styling */
+.project-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+/* Project Image Styling */
+.project-item img {
+    width: 60%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+
+}
+
+/* Project Title Styling */
+.project-item h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+/* Link Styling */
+.project-item a {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    color: #0056b3;
+}
+
+/* GitHub Icon Styling */
+.project-item i {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.project-item a:hover i {
+    color: #007bff;
+}
+
+
+/* Contact Section Styling */
+#contact {
+    padding: 50px 0;
+    background-color: #eae0d5;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Social Media Icons Styling */
+.social-media a {
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #007bff;
+}
+
+/* Location Information Styling */
+.location {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.location i {
+    margin-right: 10px;
+    color: #007bff;
+}
+

@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
 </head>
 <body>
-
+  
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"> 
     <!-- Hero Section -->
-    <header class="hero">
+    <header id="Home" class="hero">
+         
         <h1>Welcome to my portfolio</h1>
         <img 
         src="../../assets/images/WhatsApp Image 2024-08-19 at 12.30.15.jpeg" 
@@ -53,38 +56,45 @@
     <section id="projects">
         <h2>Projects</h2>
         <div class="project-list">
-            <div class="project-item">
+            <!-- <div class="project-item">
                 <div class="project-item">
                     <img src="../../assets/images/Bootstrap.jpeg" alt="Project Image">
-                    <!-- Add other content like text, buttons, etc. -->
-                </div>
+                    Add other content like text, buttons, etc. -->
+                <!-- </div>
                 <h3>Project One</h3>
                 <a href="https://github.com/glenrosethulisile97/sign-up-page">View Project</a>
+            </div> -->
+            <div class="project-item">
+                <div class="project-item">
+                    <img src="../../assets/NEW GIRL BEDROOM DESIGN.jpeg" alt="Project Image">
+                    <!-- Add other content like text, buttons, etc. -->
+                </div>
+                <h3>Modern-Interiors</h3>
+                <a href="https://github.com/glenrosethulisile97/sign-up-page" target="_blank">
+                    <i class="fab fa-github" style="font-size: 24px;"></i>
+                </a>
             </div>
             <div class="project-item">
                 <div class="project-item">
-                    <img src="../../assets/images/Html5 Js Css3 Logo Png Png - Free PNG Images ID 34201 _ TopPNG.jpeg" alt="Project Image">
+                    <img src="../../assets/Mastering Time-Blocking_ Your Key to Productivity.jpeg" alt="Project Image">
                     <!-- Add other content like text, buttons, etc. -->
                 </div>
-                <h3>Project Two</h3>
-                <a href="https://github.com/glenrosethulisile97/Modern-Interiors">View Project</a>
+                <h3>Task-Management</h3>
+                <a href="https://github.com/glenrosethulisile97/Task-Management" target="_blank">
+                    <i class="fab fa-github" style="font-size: 24px;"></i>
+                </a>
             </div>
             <div class="project-item">
                 <div class="project-item">
-                    <img src="../../assets/images/Angular JS JavaScript Developer by vladocar.jpeg" alt="Project Image">
+                    <img src="../../assets/_ (3).jpeg" alt="Project Image">
                     <!-- Add other content like text, buttons, etc. -->
                 </div>
-                <h3>Project Three</h3>
-                <a href="https://github.com/glenrosethulisile97/Task-Management">View Project</a>
-            </div>
-            <div class="project-item">
-                <div class="project-item">
-                    <img src="../../assets/images/b6d05cb5-1c42-47a9-abd2-4afc86c3d6b7.jpeg" alt="Project Image">
-                    <!-- Add other content like text, buttons, etc. -->
-                </div>
-                <h3>Project four</h3>
+                <h3>Reception 88</h3>
                 
-                <a href="https://github.com/glenrosethulisile97/Portfolio">View Project</a>
+                <a href="https://github.com/The-DigitalAcademy/Admin_Salon_PWD" target="_blank">
+                    <i class="fab fa-github" style="font-size: 24px;"></i>
+                </a>
+                
             </div>
             
     
@@ -102,7 +112,7 @@
                 <ul>
                     <li>JavaScript</li>
                     <li>Python</li>
-                    <li>Java</li>
+                    <li></li>
                     
                 </ul>
             </div>
@@ -133,7 +143,7 @@
                 <ul>
                     <li>Git & GitHub</li>
                     <li>RESTful APIs</li>
-                    <li>Unit Testing</li>
+                    <li>Post Man</li>
                 </ul>
             </div>
 
@@ -151,19 +161,41 @@
     </div>
 </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>If you'd like to work together, feel free to reach out!</p>
+   <!-- Contact Section -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to work together, feel free to reach out!</p>
 
+    <!-- Contact Form -->
+    <form class="contact-form" action="mailto:thulisilemolefe162@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
 
-        <a class="btn" href="mailto:thulisilemolefe162@gmail.com">Get in Touch</a>
-    </section> 
+    <!-- Social Media Links -->
+    <div class="social-media">
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+
+    <!-- Location Information -->
+    <div class="location">
+        <p><i class="fas fa-map-marker-alt"></i> Based in Johannesburg, South Africa</p>
+    </div>
+
+    <a class="btn" href="mailto:thulisilemolefe162@gmail.com">Get in Touch</a>
+</section>
+
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 . All rights reserved.</p>
     </footer>
+
+</div>
 
 </body>
 </html>

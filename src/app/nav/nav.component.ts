@@ -11,7 +11,7 @@ import { ScrollFeatureComponent } from '../scroll-feature/scroll-feature.compone
 export class NavComponent {
 
   Navigation_Pro = [
-    'Home','Profile','Skills','Contact','About','Thulisile',
+    'Home','About','Skills','Contact','Projects',
   ]
 
 }
