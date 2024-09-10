@@ -77,6 +77,7 @@ body {
 
 /* Projects Section */
 #projects {
+    
     height: 700px;
     padding: 50px 20px;
     background-color:#eae0d5;
@@ -244,6 +245,7 @@ footer {
 
 /* Projects Section Styling */
 #projects {
+    
     padding: 50px 0;
     background-color: #eae0d5;
     text-align: center;
